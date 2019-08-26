@@ -1,0 +1,27 @@
+		(1)	(2)
+VARIABLES	LABELS	Column 1	Column 2
+			
+age	Age (in years)	-0.0653***	-0.0550***
+		(1.16e-08)	(9.40e-07)
+age2	age2	0.000684***	0.000510***
+		(4.03e-07)	(0.000115)
+17.country	Country = 17, India		-0.167***
+			(0.00710)
+18.country	Country = 18, Indonesia		0.513***
+			(9.36e-11)
+27.country	Country = 27, Pakistan		0.200***
+			(0.00229)
+31.country	Country = 31, Russia		-0.443***
+			(3.34e-08)
+40.country	Country = 40, US		1.841***
+			(0)
+45.country	Country = 45, Jordan		0.0820
+			(0.298)
+Constant	Constant	6.869***	6.523***
+		(0)	(0)
+			
+Observations		10,355	10,355
+R-squared		0.004	0.090
+Country Fixed Effects		No	Yes
+pval in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
